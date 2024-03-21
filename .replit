@@ -1,0 +1,6 @@
+compile = ["cobc", "-x", "main.cob"]
+run = "./main"
+hidden = ["main"]
+
+[nix]
+channel = "stable-21_11"
